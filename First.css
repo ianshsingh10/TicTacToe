@@ -1,0 +1,122 @@
+ *{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+ }
+ body{
+    text-align: center;
+ }
+ h1{
+   font-size: 6vmin;
+    color: violet;
+ }
+
+ p{
+   color: violet;
+   font-size: 3vmin;
+}
+ #players{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 15vmin;
+ }
+ .player{
+    align-content: center;
+    color: black;
+    font-size: 4vmin;
+    height: 5vmin;
+    width: 20vmin;
+    background-color: violet;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 1rem;
+ }
+ #bigbox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #big{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+ }
+ .box{
+    text-decoration: none;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: .2rem;
+    font-size: 12vmin;
+ }
+ #b1{
+    border-right: 1vmin solid violet;
+    border-bottom:  1vmin solid violet;;
+ }
+ #b2{
+    border-right: 1vmin solid violet;
+    border-bottom:  1vmin solid violet;
+    border-left:  1vmin solid violet;
+ }
+ #b3{
+    border-left: 1vmin solid violet;
+    border-bottom:  1vmin solid violet;;
+ }
+ #b4{
+    border-top:  1vmin solid violet;
+    border-right: 1vmin solid violet;
+    border-bottom:  1vmin solid violet;;
+ }
+ #b5{
+    border-top:  1vmin solid violet;
+    border-right: 1vmin solid violet;
+    border-bottom:  1vmin solid violet;
+    border-left:  1vmin solid violet;
+ }
+ #b6{
+    border-top: 1vmin solid violet;
+    border-bottom:  1vmin solid violet;
+    border-left:  1vmin solid violet;
+ }
+ #b7{
+    border-right: 1vmin solid violet;
+    border-top:  1vmin solid violet;
+ }
+ #b8{
+    border-top:  1vmin solid violet;
+    border-right: 1vmin solid violet;
+    border-left:  1vmin solid violet;
+ }
+ #b9{
+    border-left: 1vmin solid violet;
+    border-top:  1vmin solid violet;
+ }
+ .winner{
+   width: 48vmin;
+   height: 10vmin;
+   font-size: 8vmin;
+   z-index: 1;
+   position: fixed ;
+   top: 48.5vmin;
+   left: 26vmin;
+   background-color: violet;
+ }
+.newgmdiv{
+    font-size: 3vmin;
+    background-color: violet;
+    color: black;
+    border: 2px solid white;
+    border-radius: 0.8rem;
+}
+.win{
+   font-size:4vmin;
+}
+.hide{
+   display: none;
+}
