@@ -4,7 +4,7 @@
     padding: 0;
     color: white;
  }
- body{
+body{
     text-align: center;
  }
  h1{
@@ -103,8 +103,8 @@
    font-size: 8vmin;
    z-index: 1;
    position: fixed ;
-   top: 48.5vmin;
-   left: 26vmin;
+   top: 45vmin;
+   left: 38.5vw;
    background-color: violet;
  }
 .newgmdiv{

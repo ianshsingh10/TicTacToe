@@ -100,6 +100,7 @@ boxes.forEach((box)=>{
             turn="X";
             msg.innerText=`Player1 Turn`;
         }
+        back.disabled= false;
         box.disabled= true;
         count++;
         backk=box.getAttribute("id");
@@ -146,6 +147,7 @@ let backbtn=()=>{
 }
 resetbtn.addEventListener("click",resetgm);
 back.addEventListener("click",()=>{
+    back.disabled= true;
     backbtn();
     count--;
     resetbtn.innerText="RESET";
